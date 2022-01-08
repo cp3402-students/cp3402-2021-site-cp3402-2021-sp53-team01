@@ -44,6 +44,7 @@ Credits:
 /* This is a small security for too long strings titles */
 body {
 	word-wrap: break-word;
+  color: blue;
 }
 
 /* Alignment */
