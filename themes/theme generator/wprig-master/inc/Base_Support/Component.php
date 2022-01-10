@@ -196,9 +196,9 @@ class Component implements Component_Interface, Templating_Component_Interface {
 	 * @return string Asset version number.
 	 */
 	public function get_asset_version( string $filepath ) : string {
-		if ( WP_DEBUG ) {
-			return (string) filemtime( $filepath );
-		}
+		// if ( WP_DEBUG ) {
+		// 	return (string) filemtime( $filepath );
+		// }
 
 		return $this->get_version();
 	}
