@@ -1,19 +1,18 @@
 {
     "theme": {
-        "slug": "wp-rig",
-        "name": "WP Rig",
-        "author": "The WP Rig Contributors",
-        "PHPNamespace": "WP_Rig\\WP_Rig"
+        "slug": "FastFoodHeavenTheme",
+        "name": "Fast Food Heaven",
+        "author": "The CP3402 Team One"
     },
     "browserSync": {
         "live": true,
-        "proxyURL": "wprig.test:8888",
+        "proxyURL": "FastFoodHeaven.test:8888",
         "bypassPort": "8181",
         "https": false
     },
     "debug": {
         "styles": false,
-        "scripts": false,
+        "scripts": true,
         "phpcs": true
     }
 }
