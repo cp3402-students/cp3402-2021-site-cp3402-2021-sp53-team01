@@ -4,15 +4,17 @@
         "name": "Fast Food Heaven",
         "author": "The CP3402 Team One"
     },
-    "browserSync": {
-        "live": true,
-        "proxyURL": "FastFoodHeaven.test:8888",
-        "bypassPort": "8181",
-        "https": false
-    },
-    "debug": {
-        "styles": false,
-        "scripts": true,
-        "phpcs": true
+    "dev": {
+        "browserSync": {
+            "live": true,
+            "proxyURL": "fastfoodheaven.develop",
+            "bypassPort": "8181",
+            "https": false
+        },
+        "debug": {
+            "styles": false,
+            "scripts": true,
+            "phpcs": true
+        }
     }
 }
