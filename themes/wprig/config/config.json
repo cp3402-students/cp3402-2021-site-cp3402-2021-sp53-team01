@@ -12,7 +12,7 @@
             "https": false
         },
         "debug": {
-            "styles": false,
+            "styles": true,
             "scripts": true,
             "phpcs": true
         }
