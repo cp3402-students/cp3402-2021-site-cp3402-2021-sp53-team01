@@ -649,6 +649,7 @@ select {
 # Footer
 --------------------------------------------------------------*/
 .site-footer {
+	background-color: #d6cc70;
 	margin: 1em 0 0;
 	padding: 2em 0;
 	font-family: var(--highlight-font-family);
