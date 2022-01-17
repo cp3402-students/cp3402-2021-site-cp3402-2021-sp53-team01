@@ -79,7 +79,7 @@
 @media (--sidebar-query) {
 
 	.has-sidebar .site {
-		margin: 0 1em;
+		margin: 0 0em;
 		display: grid;
 		/* grid-template-columns: 3fr 1fr; */
 		grid-gap: 2rem;
@@ -223,6 +223,9 @@ select {
 
 .site-header {
 	padding-bottom: 0em;
+	background-color: #f5deb3;
+	padding: 0px;
+	margin: 0px;
 }
 
 .header-image {
@@ -242,7 +245,7 @@ select {
 .site-branding {
 	text-align: center;
 	padding: 0px 0 0.5em;
-	background-color: #fff;
+	background-color: #f5deb3;
 	@media screen and (max-width: 100px) {
 		padding: 1em 0;
 		margin:0;
@@ -677,7 +680,7 @@ select {
 # Footer
 --------------------------------------------------------------*/
 .site-footer {
-	background-color: #d6cc70;
+	background-color: #f5deb3;
 	margin: 2em 0 0;
 	padding: 3em 0;
 	font-family: var(--highlight-font-family);
