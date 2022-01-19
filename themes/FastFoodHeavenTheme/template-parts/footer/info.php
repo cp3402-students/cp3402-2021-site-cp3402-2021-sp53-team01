@@ -2,7 +2,7 @@
 /**
  * Template part for displaying the footer info
  *
- * @package wp_rig
+ * @package FastFoodHeavenTheme
  */
 
 namespace WP_Rig\WP_Rig;
@@ -10,10 +10,10 @@ namespace WP_Rig\WP_Rig;
 ?>
 
 <div class="site-info">
-	<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'wp-rig' ) ); ?>">
+	<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'FastFoodHeavenTheme' ) ); ?>">
 		<?php
 		/* translators: %s: CMS name, i.e. WordPress. */
-		printf( esc_html__( 'Proudly powered by %s', 'wp-rig' ), 'Fast Food Heaven' );
+		printf( esc_html__( 'Proudly powered by %s', 'FastFoodHeavenTheme' ), 'Fast Food Heaven' );
 		?>
 	</a>
 	<span class="sep"> | </span>
