@@ -1,4 +1,5 @@
-This project is based on the well-known starter theme WP-Rig(https://github.com/wprig/wprig) to develop a custom theme FastFoodHeavenTheme.
+This project is based on the well-known starter theme [wprig](https://github.com/wprig/wprig) to develop a custom theme FastFoodHeavenTheme.
+
 
 1. ### Local development environment setup
 
@@ -12,18 +13,20 @@ This project is based on the well-known starter theme WP-Rig(https://github.com/
 
 6. ### Notes
 
+---
+   
 
 1. ### Use VVV to set up the local development environment:
 
-   1. Follow the installation documentation https://varyingvagrantvagrants.org/ install vagrant, git, VirtualBox.
+   1. Follow the [installation documentation](https://varyingvagrantvagrants.org/)install vagrant, git, VirtualBox.
 
    2. Execute three commands:
 
-       ```
-       git clone -b stable https://github.com/Varying-Vagrant-Vagrants/VVV.git ~/vvv-local
-       cd ~/vvv-local
-       vagrant plugin install --local
-       ```
+      ```
+      git clone -b stable https://github.com/Varying-Vagrant-Vagrants/VVV.git ~/vvv-local
+      cd ~/vvv-local
+      vagrant plugin install --local
+      ```
 
    3. Replace /vvv-local/config/config.yml, refer to the project's own config.yml
 
@@ -38,23 +41,23 @@ This project is based on the well-known starter theme WP-Rig(https://github.com/
    1. Navigate to ~/vvv-local/www/develop-website/public_html/wp-content in the computer folder and change the name of the wp-content folder to wp-content-old
    2. Open the github desktop, clone to the local path, and fill in /vvv-local/www/develop-website/public_html/wp-content
 
-3. ### Develop a custom theme using WP-Rig:
+3. ### Develop a custom theme using wprig:
 
-   1. vscode open folder: WP-Rig, can not open wp-content.
+   1. vscode open folder: wprig, can not open wp-content.
       ～/vvv-local/www/develop-website/public_html/wp-content/themes/wprig
-   2. Refer to the WP-Rig documentation
+   2. Refer to the wprig documentation
       Note: Configure config/config files in wprig.js. After cloning the project, you can see that it has been configured and does not need to be modified.
 
 4. ### Plugin installation (optional):
 
    1. Install the WordPress plugin:
-      https://codex.wordpress.org/Theme_Unit_Test
-      https://wordpress.org/plugins/monster-widget/
-      https://wordpress.org/plugins/show-current-template/
+      - https://codex.wordpress.org/Theme_Unit_Test
+      - https://wordpress.org/plugins/monster-widget/
+      - https://wordpress.org/plugins/show-current-template/
    2. vscode plugin:
-      https://github.com/wprig/docs/blob/master/documentation/recommended-extensions.md
+      - https://github.com/wprig/docs/blob/master/documentation/recommended-extensions.md
 
-- ### Conceptual Explanation:
+5. ### Conceptual Explanation:
 
   - nvm: The node version manager for installing or updating nodejs.
   - npm: The node package manager
