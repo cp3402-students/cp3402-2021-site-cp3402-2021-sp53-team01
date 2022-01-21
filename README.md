@@ -18,7 +18,7 @@ This project is based on the well-known starter theme [wprig](https://github.com
 
 1. ### Use VVV to set up the local development environment:
 
-   1. Follow the [installation documentation](https://varyingvagrantvagrants.org/)install vagrant, git, VirtualBox.
+   1. Follow the [installation documentation](https://varyingvagrantvagrants.org/) install vagrant, git, VirtualBox.
 
    2. Execute three commands:
 
