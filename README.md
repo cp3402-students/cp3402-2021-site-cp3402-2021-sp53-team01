@@ -12,6 +12,7 @@ This project is based on the well-known starter theme WP-Rig(https://github.com/
 
 6. ### Notes
 
+
 1. ### Use VVV to set up the local development environment:
 
    1. Follow the installation documentation https://varyingvagrantvagrants.org/ install vagrant, git, VirtualBox.
