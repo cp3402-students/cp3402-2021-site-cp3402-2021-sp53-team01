@@ -1,1 +1,1 @@
-
+The way we deployed our website took several steps and I will be describing each and every step. First, we bought a Domain name for our website. Then, we register the amazon aws account. Thirdly, we set up the server on aws. Then, we set up the Wordpress on that server. This will help us edit the pages. Then, we set up the elastic ip address of that server. Then, we deployed our website content onto the Wordpress site. This will make our website looks real with real content. 
